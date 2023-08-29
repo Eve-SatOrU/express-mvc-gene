@@ -1,0 +1,22 @@
+{
+  "name": "express-mvc-gene",
+  "version": "1.0.0",
+  "description": "**Express MVC Generator** is a Node.js library that allows you to quickly set up a new Express.js MVC application using a pre-configured scaffold. It provides a streamlined way to create the basic structure for your project, including controllers, models, routes, views, utilities, and more.",
+  "main": "lib/generateApp.js",
+  "bin": {
+    "express-mvc-gen": "./scaffold/bin/express-mvc-gen"
+  },
+
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "toumi meriem",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const commander = require('commander');
+const generateApp = require('../../lib/generateApp');
+
+commander
+  .command('create <appName>')
+  .description('Generate an Express.js MVC application')
+  .action(appName => generateApp(appName));
+
+commander.parse(process.argv);
